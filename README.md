@@ -13,7 +13,7 @@
 *Materialize-UI for React
 
 ### Back-End:
-*Node.js <br/>
+* Node.js <br/>
 *MongoDB <br/>
 *Express.js <br/>
 *Passport.js 
