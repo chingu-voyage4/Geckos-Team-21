@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-
 import Paper from "material-ui/Paper";
 import Typography from "material-ui/Typography";
-import AppBar from "./Components/AppBar";
 import { MuiThemeProvider } from "material-ui/styles";
 
+import { Header } from "./Layout"; // Importing from Layout by default it will go to index.js
 import theme from "./theme";
 
 class App extends Component {
@@ -13,10 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <MuiThemeProvider theme={theme}>
-          <AppBar />
-          <Paper>
-            <Typography variant="display2">COMPRARRRRRR</Typography>
-          </Paper>
+          <Header />
         </MuiThemeProvider>
       </div>
     );
