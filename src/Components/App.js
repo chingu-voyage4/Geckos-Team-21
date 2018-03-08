@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import "./App.css";
 import { MuiThemeProvider } from "material-ui/styles";
-import { Header } from "./Layout"; // Importing from Layout by default it will go to index.js
-import SearchBar from "./SearchBar";
+import Header from "./Layout/Header"; // Importing from Layout by default it will go to index.js
+import SearchBar from "./SearchBar/SearchBar";
 import theme from "./theme";
 import Axios from "axios";
 import { URI } from "../configuration";
-import { ListItems } from "./ListItems";
+import ItemsList from "./ItemsList/ItemsList";
 
 class App extends Component {
   constructor(props) {
@@ -33,7 +32,7 @@ class App extends Component {
         <MuiThemeProvider theme={theme}>
           <Header />
           <SearchBar />
-          <ListItems items={this.state.items} />
+          <ItemsList items={this.state.items} />
         </MuiThemeProvider>
       </div>
     );

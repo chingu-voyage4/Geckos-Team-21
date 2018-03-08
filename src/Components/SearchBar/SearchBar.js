@@ -1,19 +1,7 @@
 import React from "react";
 import { Grid, Paper, TextField, Button } from "material-ui";
 
-const styles = {
-  container: {
-    padding: "10px 50px",
-    marginTop: 15
-  },
-  Paper: {
-    padding: 20
-  },
-  Button: {
-    marginTop: "10%",
-    marginLeft: "5%"
-  }
-};
+import { styles } from "./styles";
 
 export default function SearchBar() {
   return (

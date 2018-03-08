@@ -6,18 +6,7 @@ import Toolbar from "material-ui/Toolbar";
 import Typography from "material-ui/Typography";
 import Button from "material-ui/Button";
 
-const styles = {
-  root: {
-    flexGrow: 1
-  },
-  flex: {
-    flex: 1
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20
-  }
-};
+import { styles } from "./styles";
 
 function Header({ classes }) {
   return (

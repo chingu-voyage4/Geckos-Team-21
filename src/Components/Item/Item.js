@@ -4,14 +4,7 @@ import { Card, Typography, Button } from "material-ui";
 import { CardMedia, CardContent, CardActions } from "material-ui/Card";
 import { withStyles } from "material-ui/styles";
 
-const styles = {
-  card: {
-    margin: 10
-  },
-  media: {
-    height: 200
-  }
-};
+import { styles } from "./styles";
 
 const Item = ({ classes, item }) => (
   <Card className={classes.card} raised={true}>
