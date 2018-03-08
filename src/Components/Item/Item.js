@@ -10,7 +10,6 @@ const Item = ({ classes, item }) => (
   <Card className={classes.card} raised={true}>
     <CardMedia
       className={classes.media}
-      //image="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
       image={item.imageUrl.split(",")[0]}
       title="Contemplative Reptile"
     />
